@@ -1,0 +1,4 @@
+@EndUserText.label: 'Approval Service Definition'
+define service ZC_APPROVAL_SD {
+  expose Zc_Approval as Approval;
+}

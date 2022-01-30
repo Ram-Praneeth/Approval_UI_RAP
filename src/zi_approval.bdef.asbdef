@@ -1,0 +1,13 @@
+managed implementation in class zbp_i_approval unique;
+strict;
+
+define behavior for Zi_Approval //alias <alias_name>
+persistent table ZAPPROVAL
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}
